@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #f4ded0 ;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    color: #CB8A90;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#grupo-inputs{
+    background-color: #f4ded0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+.caixa{
+    width: 20%;
+    height: 30px;
+    background-color: #f9f9f9;
+}
+
+#botoes{
+    background-color: #f4ded0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #F6B99D;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+table{
+    border: solid #F6B99D 3px;
+    border-radius: 2px;
+    margin-top: 30px;
+    background-color: #f4ded0;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background-color:#f5e5d3;
+    border: solid #F6B99D 1px;
+}
+
+td:hover{
+    cursor:default;
+}
+
+#saida input{
+    height: 20px;
+    width: 20px;
+}
+
+
+td{
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+.manual{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+
+}
+.modal-title{
+    color: #CB8A90 ;
+}
+
+.subtitulo{
+    color: #CB8A90;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
